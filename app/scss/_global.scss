@@ -6,6 +6,7 @@ body{
   font-size: 16px;
   line-height: 1.5;
   color:$default;
+  @extend %gilroy-500;
 }
 .container{
   max-width: 1470px;
@@ -40,36 +41,35 @@ body{
 // 	text-align: center;
 // }
 
-// .button{
-// 	border: none;
-// 	@extend %opensans-700;
-// 	font-size: 15px;
-// 	line-height: 1.4;
-// 	letter-spacing: 0.03em;
-// 	text-transform: uppercase;
-// 	background-color: transparent;
-// 	outline: transparent;
-// 	text-decoration: underline;
-// 	text-decoration-color: transparent;
-// 	transition: box-shadow 0.5s ease,
-// 		opacity 0.5s ease,
-// 		text-decoration 0.5s ease,
-// 		color 0.5s ease;
-// 	cursor: pointer;
+.button{
+	border: none;
+	@extend %gilroy-500;
+	font-size: 18px;
+	line-height: 1.3;
+	letter-spacing: 0.18px;
+  border-radius: 8px;
+	background-color: $purpul;
+  color:$white;
+	outline: transparent;
+	transition: box-shadow 0.5s ease,
+		opacity 0.5s ease,
+		text-decoration 0.5s ease,
+		color 0.5s ease;
+	cursor: pointer;
 
 
-// 	&:focus {
-// 		box-shadow: 0 0 0 2px rgba(99, 166, 14, 0.2);
-// 		border-radius: 3px;
-// 	}
+	// &:focus {
+	// 	box-shadow: 0 0 0 2px rgba(99, 166, 14, 0.2);
+	// 	border-radius: 3px;
+	// }
 
-// 	&:hover {
-// 		color: $green-900;
-// 	}
+	// &:hover {
+	// 	color: $green-900;
+	// }
 
-// 	&:active {
-// 		outline-color: rgba(99, 166, 14, 0.2);
-// 		text-decoration: none;
-// 	}
-// }
+	// &:active {
+	// 	outline-color: rgba(99, 166, 14, 0.2);
+	// 	text-decoration: none;
+	// }
+}
 
