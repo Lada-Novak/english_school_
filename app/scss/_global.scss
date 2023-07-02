@@ -1,0 +1,75 @@
+html,
+body {
+	height: 100%;
+}
+body{
+  font-size: 16px;
+  line-height: 1.5;
+  color:$default;
+}
+.container{
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+// .title {
+// 	@extend %ruda-600;
+// 	font-size: 32px;
+// 	line-height: 1.4;
+// 	letter-spacing: 0.03em;
+// 	text-transform: uppercase;
+// 	color: $dark-900;
+// 	text-align: center;
+// }
+
+// .button{
+// 	border: none;
+// 	@extend %opensans-700;
+// 	font-size: 15px;
+// 	line-height: 1.4;
+// 	letter-spacing: 0.03em;
+// 	text-transform: uppercase;
+// 	background-color: transparent;
+// 	outline: transparent;
+// 	text-decoration: underline;
+// 	text-decoration-color: transparent;
+// 	transition: box-shadow 0.5s ease,
+// 		opacity 0.5s ease,
+// 		text-decoration 0.5s ease,
+// 		color 0.5s ease;
+// 	cursor: pointer;
+
+
+// 	&:focus {
+// 		box-shadow: 0 0 0 2px rgba(99, 166, 14, 0.2);
+// 		border-radius: 3px;
+// 	}
+
+// 	&:hover {
+// 		color: $green-900;
+// 	}
+
+// 	&:active {
+// 		outline-color: rgba(99, 166, 14, 0.2);
+// 		text-decoration: none;
+// 	}
+// }
+

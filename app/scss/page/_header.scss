@@ -1,0 +1,47 @@
+.header{
+  &__container{
+  max-width: 1950px;
+  margin: 0 auto;
+  padding: 0 15px;
+  }
+}
+
+.menu{
+  padding: 24px 24px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  &__right{
+    display: flex;
+  }
+  &__list{
+    display: flex;
+    margin-left: 55px;
+    align-items: center;
+  }
+  &__item:not(:first-child){
+    padding-left: 30px;
+  }
+  &__link,
+  &__extra-link{
+    padding-bottom: 1px;
+    color:$grey;
+    letter-spacing: 0.16px;
+    border-bottom: 2px solid transparent;
+    transition: color .5s ease,
+                border-bottom .5s ease;
+    &:hover{
+      color:#8E49A0;
+    }
+    &:active{
+      color:#641F76;
+      border-bottom: 2px solid #641F76;
+    }
+  }
+  &__link--active{
+    color:#641F76;
+    border-bottom: 2px solid #641F76;
+  }
+}
