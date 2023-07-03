@@ -34,15 +34,13 @@ body{
 	overflow: hidden;
 }
 
-// .title {
-// 	@extend %ruda-600;
-// 	font-size: 32px;
-// 	line-height: 1.4;
-// 	letter-spacing: 0.03em;
-// 	text-transform: uppercase;
-// 	color: $dark-900;
-// 	text-align: center;
-// }
+.title {
+	@extend %gilroy-900;
+	font-size: 46px;
+	line-height: 1.1;
+	color: $default;
+	letter-spacing: 0.46px;
+}
 
 .button{
 	border: none;
@@ -54,7 +52,7 @@ body{
 	background-color: $purpul;
   color:$white;
 	outline: transparent;
-	transition: box-shadow 0.5s ease,
+	transition: background-color 0.5s ease,
 		opacity 0.5s ease,
 		text-decoration 0.5s ease,
 		color 0.5s ease;
@@ -62,13 +60,12 @@ body{
 
 
 	// &:focus {
-	// 	box-shadow: 0 0 0 2px rgba(99, 166, 14, 0.2);
-	// 	border-radius: 3px;
+	// 	background-color: #c54ae5;
 	// }
 
-	// &:hover {
-	// 	color: $green-900;
-	// }
+	&:hover {
+		background-color: #c54ae5;
+	}
 
 	// &:active {
 	// 	outline-color: rgba(99, 166, 14, 0.2);

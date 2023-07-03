@@ -1,0 +1,56 @@
+.courses {
+	margin-bottom: 100px;
+	padding-bottom: 100px;
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 60px;
+	}
+
+	&__title {
+		width: 650px;
+	}
+
+	&__top-btn {
+		display: flex;
+		align-self: end;
+		height: 48px;
+		padding: 12px 16px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 8px;
+		border: 1px solid $purpul;
+		color: $purpul;
+		@extend %gilroy-400;
+		letter-spacing: 0.16px;
+    transition: background-color 0.5s ease,
+                color 0.5s ease;
+
+    &:hover{
+      color: $white;
+      background-color: #c54ae5;
+    }
+	}
+
+  &__slider{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__slider-german{
+    background: #DEF1FF;
+  }
+  &__slider-china{
+    background: #FDEDE4;
+
+  }
+  &__slider-spain{
+    background: #EFEFFF;
+  }
+
+  &__slider-item{
+    padding: 40px;
+    border-radius: 10px;
+  }
+}

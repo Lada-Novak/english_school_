@@ -1,20 +1,286 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-  <link rel="stylesheet" href="css/style.min.css">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<title>Language to go</title>
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
+	<header class="header">
+		<div class="header__container">
+			<nav class="menu">
+				<menu class="menu__inner">
+					<div class="menu__right">
+						<a class="logo" href="#body">
+							<img class="logo__img" src="images/logo.png" alt="logo">
+						</a>
+
+						<div class="menu__btn">
+							<div class="menu__burger"></div>
+							<span class="sr-only">бургер меню</span>
+						</div>
+
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link menu__link--active" href="#">Курсы</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">О нас</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Блог</a>
+							</li>
+							<li class="menu__item">
+								<div class="menu-extra">
+									<button class="menu__link menu-extra__btn">Еще</button>
+									<ul class="menu-extra__list">
+										<li class="menu-extra__item">
+											<a class="menu-extra__link" href="#">FAQ</a>
+										</li>
+										<li class="menu-extra__item">
+											<a class="menu-extra__link" href="#">Контакты</a>
+										</li>
+										<li class="menu-extra__item">
+											<a class="menu-extra__link" href="#">Условия оплаты</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<button class="menu-extra__btn-enter button">Войти</button>
+				</menu>
 
 
-  
+			</nav>
+		</div>
+	</header>
 
-  <script src="js/main.min.js"></script>
+	<main class="main">
+
+		<section class="promo">
+			<div class="container">
+				<div class="promo__inner">
+					<div class="promo__content">
+						<p class="promo__subtitle">Language to go</p>
+						<h1 class="promo__title">Онлайн-школа иностранных языков</h1>
+						<p class="promo__text">Достигайте своих целей с помощью авторских игровых методик от носителей языка</p>
+						<div class="promo__buttons">
+							<a class="promo__btn-try button" href="">Попробовать бесплатно</a>
+							<a class="promo__btn-reviews" href="#">Посмотреть промо-ролик</a>
+						</div>
+					</div>
+					<div class="promo__picture">
+						<img class="promo__img" src="images/promo.png" alt="img_promo">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="courses">
+			<div class="container">
+				<div class="courses__top">
+					<h2 class="courses__title title">Курсы иностранных языков для любого уровня</h2>
+					<a class="courses__top-btn" href="#">Все курсы</a>
+				</div>
+
+				<div class="courses__slider">
+					<div class="courses__slider-item courses__slider-german">
+						<img class="courses__slider-img" src="images/courses/german.png" alt="german">
+						<h3 class="courses__slider-title">
+							Немецкий для начального уровня
+						</h3>
+						<p class="courses__slider-ifo">Длительность: <span>45 часов</span></p>
+						<p class="courses__slider-ifo">Модулей: <span>3</span></p>
+            <div class="courses__slider-more">
+              <a class="courses__slider-link" href="#">Узнать подробнее</a>
+              <p class="courses__slider-coust">От 6 520 Р</p>
+            </div>
+					</div>
+
+					<div class="courses__slider-item courses__slider-china">
+						<img class="courses__slider-img" src="images/courses/china.png" alt="china">
+						<h3 class="courses__slider-title">
+							Китайский для начального уровня
+						</h3>
+						<p class="courses__slider-ifo">Длительность: <span>45 часов</span></p>
+						<p class="courses__slider-ifo">Модулей: <span>3</span></p>
+            <div class="courses__slider-more">
+              <a class="courses__slider-link" href="#">Узнать подробнее</a>
+              <p class="courses__slider-coust">От 6 520 Р</p>
+            </div>
+					</div>
+
+					<div class="courses__slider-item courses__slider-spain">
+						<img class="courses__slider-img" src="images/courses/spain.png" alt="spane">
+						<h3 class="courses__slider-title">
+							Испанский для начального уровня
+						</h3>
+						<p class="courses__slider-ifo">Длительность: <span>45 часов</span></p>
+						<p class="courses__slider-ifo">Модулей: <span>3</span></p>
+            <div class="courses__slider-more">
+              <a class="courses__slider-link" href="#">Узнать подробнее</a>
+              <p class="courses__slider-coust">От 6 520 Р</p>
+            </div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer-one">
+			<div class="container">
+				<div class="footer-top">
+
+					<div class="footer-top__item footer-top__pay">
+						<a class="footer-top__logo" href="#body">
+							<img class="footer-top__logo-buttom" src="images/logo_buttom.png" alt="logo">
+						</a>
+						<p class="footer-top__text">
+							Language2Go — интерактивная платформа для легкого, удобного и быстрого изучения иностранных языков.
+						</p>
+						<ul class="footer-top__accept-list">
+							<li class="footer-top__accept-item">
+								<img class="footer-top__accept-img" src="images/icons/visa.png" alt="we accept">
+							</li>
+							<li class="footer-top__accept-item">
+								<img class="footer-top__accept-img" src="images/icons/mastercard.png" alt="we accept">
+							</li>
+							<li class="footer-top__accept-item"></li>
+							<img class="footer-top__accept-img" src="images/icons/mir.png" alt="we accept">
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-top__item footer-top__nav">
+						<h6 class="footer-top__title">Обучение</h6>
+						<ul class="footer-top__list">
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">Все языки</a>
+							</li>
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">Взрослым</a>
+							</li>
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">Детям и подросткам</a>
+							</li>
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">Мини-курсы</a>
+							</li>
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">Тренажеры</a>
+							</li>
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">Индивидуальные занятия</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-top__item footer-top__nav">
+						<h6 class="footer-top__title">Информация</h6>
+						<ul class="footer-top__list">
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">О нас</a>
+							</li>
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">Отзывы</a>
+							</li>
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">Новости</a>
+							</li>
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">Частые вопросы</a>
+							</li>
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">Условия оплаты</a>
+							</li>
+							<li class="footer-top__item">
+								<a class="footer-top__link" href="#">Контакты</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-top__item footer-top__contacts">
+						<h6 class="footer-top__title">Контакты</h6>
+						<a class="footer-top__tel" href="tel:+74951563550">+7 (495) 156-35-50</a>
+						<a class="footer-top__mail-inf" href="#">info@language2go.ru</a>
+						<a class="footer-top__mail-sup" href="#">support@language2go.ru</a>
+						<a class="footer-top__adress" href="#">101000, Москва, Россия</a>
+
+						<ul class="footer-top__social-list">
+							<li class="footer-top__social-item">
+								<a class="footer-top__social-link" href="#">
+									<svg class="footer-top__social-img">
+										<use xlink:href="images/stack/sprite.svg#facebook"></use>
+									</svg>
+									<span class="sr-only">social link</span>
+								</a>
+							</li>
+							<li class="footer-top__social-item">
+								<a class="footer-top__social-link" href="#">
+									<svg class="footer-top__social-img">
+										<use xlink:href="images/stack/sprite.svg#youtube"></use>
+									</svg>
+									<span class="sr-only">social link</span>
+								</a>
+							</li>
+							<li class="footer-top__social-item">
+								<a class="footer-top__social-link" href="#">
+									<svg class="footer-top__social-img">
+										<use xlink:href="images/stack/sprite.svg#vk"></use>
+									</svg>
+									<span class="sr-only">social link</span>
+								</a>
+							</li>
+							<li class="footer-top__social-item">
+								<a class="footer-top__social-link" href="#">
+									<svg class="footer-top__social-img">
+										<use xlink:href="images/stack/sprite.svg#twitter"></use>
+									</svg>
+									<span class="sr-only">social link</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="footer-two">
+			<div class="container">
+				<div class="footer-bottom">
+
+					<div class="footer-bottom__copy">
+						© 2022 Language to go
+					</div>
+
+					<ul class="footer-bottom__list">
+						<li class="footer-bottom__item">
+							<a class="footer-bottom__link" href="#">Правовая оговорка</a>
+						</li>
+						<li class="footer-bottom__item">
+							<a class="footer-bottom__link" href="#">Пользовательское соглашение</a>
+						</li>
+						<li class="footer-bottom__item">
+							<a class="footer-bottom__link" href="#">Политика конфиденциальности</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/main.min.js"></script>
 </body>
 
 </html>
