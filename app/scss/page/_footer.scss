@@ -1,0 +1,121 @@
+.footer-one {
+	background-color: $purpul;
+}
+
+.footer-top {
+	display: flex;
+	justify-content: space-between;
+	padding: 78px 0 102px;
+
+	&__pay {
+		max-width: 280px;
+		margin-right: 50px;
+	}
+
+	&__logo-buttom {
+		margin-bottom: 30px;
+	}
+
+	&__text {
+		margin-bottom: 48px;
+		color: $white;
+		font-size: 14px;
+		line-height: 1.2;
+		letter-spacing: 0.14px;
+	}
+
+	&__accept-list {
+		display: flex;
+		align-items: center;
+	}
+
+	&__accept-item:not(:first-child) {
+		margin-left: 14px;
+	}
+
+	&__nav {
+		margin-right: 30px;
+		width: 200px;
+	}
+
+	&__title {
+		margin-bottom: 11px;
+		@extend %gilroy-700;
+		color: $white;
+		font-size: 24px;
+		line-height: 1.3;
+	}
+
+	&__item:not(:last-child) {
+		margin-bottom: 4px;
+	}
+
+	&__link {
+		color: $white;
+		opacity: 0.7;
+	}
+
+	&__contacts {
+		width: 220px;
+    color: $white;
+	}
+
+	&__tel {
+		display: block;
+		margin-bottom: 15px;
+		font-size: 18px;
+		line-height: 1.1;
+		letter-spacing: 0.18px;
+
+	}
+
+	&__mail-inf,
+	&__mail-sup,
+  &__adress {
+    display: block;
+		@extend %gilroy-400;
+
+		opacity: 0.7;
+    letter-spacing: 0.16px;
+    line-height: 1.1;
+	}
+  &__adress{
+    margin: 15px 0 40px;
+  }
+  &__social-list{
+    display: flex;
+  }
+  &__social-item:not(:first-child){
+    margin-left: 15px;
+  }
+	&__social-img {
+		fill: #fff;
+		width: 24px;
+		height: 24px;
+	}
+}
+
+.footer-two {
+	background-color: $default;
+}
+.footer-bottom{
+  padding: 12px 12px;
+  color:$white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__copy,
+  &__link {
+    font-size: 14px;
+    @extend %gilroy-400;
+    line-height: 1.1;
+    letter-spacing: 0.14px;
+    opacity: 0.6;
+  }
+  &__list{
+    display: flex;
+  }
+  &__item:not(:last-child) {
+    padding-right: 40px;
+  }
+}
