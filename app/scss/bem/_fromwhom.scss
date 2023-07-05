@@ -1,0 +1,64 @@
+.fromwhom {
+	margin-bottom: 100px;
+	padding-top: 100px;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__info {
+    position: relative;
+		margin-right: 40px;
+		width: 453px;
+    &::before{
+      content: "";
+      position: absolute;
+      left: -244px;
+      top: -74px;
+      width: 624px;
+      height: 798px;
+      background-size: 624px;
+      background-repeat: no-repeat;
+      background-image: url('../images/icons/fromwhom.svg');
+    }
+	}
+
+	&__info-title {
+		margin-bottom: 28px;
+	}
+
+	&__info-title span {
+		color: #2E90D1;
+	}
+  &__info-text{
+    margin-bottom: 40px;
+  }
+  &__info-text span{
+    color: #2E90D1;
+  }
+  &__info-link{
+    padding: 18px 28px;
+  }
+  &__reason{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  &__reason-item{
+    padding: 20px 40px;
+    width: 454px;
+  }
+  &__reason-img{
+    margin-bottom: 16px;
+  }
+  &__reason-title{
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+}
