@@ -54,11 +54,12 @@
 			height: 60px;
 			background-color: #FFEFEF;
 			border-radius: 50%;
-
-			&:hover {
-				background-color: #ffd6d6;
-			}
-		}
+      transition: background-color 0.5s ease;
+    }
+    
+    &:hover::before {
+      background-color: #ffd6d6;
+    }
 
 		&::after {
 			content: "";

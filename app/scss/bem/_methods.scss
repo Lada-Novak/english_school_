@@ -1,0 +1,36 @@
+.methods{
+  margin-bottom: 100px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 83px 65px;
+  }
+  &__img{
+    margin-right: 162px;
+  }
+  &__title{
+    margin-bottom: 24px;
+  }
+  &__title span{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to top, #78258D,#2E90D1);
+  }
+  &__item:not(:last-child){
+    margin-bottom: 16px;
+  }
+  &__text{
+    padding-left: 36px;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color:#585858;
+  }
+}
+
+
+.container__methods{
+  border-radius: 40px;
+  background: linear-gradient(135deg, rgba(46, 144, 209, 0.10) 0%, rgba(120, 37, 141, 0.10) 100%);
+}
