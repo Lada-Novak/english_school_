@@ -1,0 +1,71 @@
+.aboutus {
+	margin-bottom: 100px;
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 60px;
+	}
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__slider-item{
+    margin-left: 40px;
+    max-width: 700px;
+    padding: 65px 40px;
+    background: #fdede4;
+  }
+  &__slider-name{
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.16px;
+  }
+  &__slider-who{
+    margin-bottom: 20px;
+    color: #828282;
+  }
+  &__slider-text{
+    color: #4f4f4f;
+  }
+}
+
+// .slick-dots {
+// 	display: flex;
+// 	justify-content: center;
+// 	margin-top: 60px;
+
+// 	li {
+// 		padding: 0 4px;
+
+// 		button {
+// 			position: relative;
+// 			padding: 0;
+// 			width: 20px;
+// 			height: 20px;
+// 			border-radius: 50%;
+// 			border: 2px solid transparent;
+// 			font-size: 0;
+// 			background-color: transparent;
+
+// 			&::before {
+// 				content: "";
+// 				position: absolute;
+// 				width: 12px;
+// 				height: 12px;
+// 				border-radius: 50%;
+// 				background-color: #BB92C6;
+// 				top: 50%;
+// 				left: 50%;
+// 				transform: translate(-50%, -50%);
+// 			}
+// 		}
+
+// 		&.slick-active {
+// 			button {
+// 				border-color: $purpul;
+// 			}
+// 		}
+// 	}
+// }

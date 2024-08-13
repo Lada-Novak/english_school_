@@ -73,3 +73,24 @@ body{
 	// }
 }
 
+	.left__btn{
+		display: flex;
+		align-self: end;
+		height: 48px;
+		padding: 12px 16px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 8px;
+		border: 1px solid $purpul;
+		color: $purpul;
+		@extend %gilroy-400;
+		letter-spacing: 0.16px;
+		transition: background-color 0.5s ease,
+			color 0.5s ease;
+
+		&:hover {
+			color: $white;
+			background-color: #c54ae5;
+		}
+	}
+
